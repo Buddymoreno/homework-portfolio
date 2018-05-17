@@ -107,7 +107,7 @@ div.benefitbackground{
 }
 
 div#benefitimage {
-	background-image:url('/images/testimonial_bg.jpg');
+	background-image:url('./images/testimonial_bg.jpg');
 	background-repeat: no-repeat;
 	
 	height:400px;
