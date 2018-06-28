@@ -1,0 +1,406 @@
+@font-face {
+    font-family: FuturaLTLight;
+    src: url(./fonts/FuturaLT.ttf);
+}
+
+@font-face {
+    font-family: FuturaLTLightone;
+    src: url(./fonts/LeroyLetteringLightBeta01.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body,
+html {
+    font-family: FuturaLTLightone, sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container-fluid.fullwidth-fluid {
+    padding: 0px;
+}
+
+.logocontainer {
+    text-align: center;
+}
+
+.col-md-3.addresscontainer {
+    font-size: 12px;
+}
+
+.hamburgercontainer p {
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+.logocontainer a {
+    color: #CC9966;
+    font-size: 55px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    vertical-align: baseline;
+    word-wrap: break-word;
+}
+
+.socialcontainer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 8px;
+    color: #666633;
+}
+
+.socialcontainer ul li a i {
+    color: #666633;
+    font-size: 16px;
+}
+
+.logocontainer a:hover {
+    text-decoration: none;
+}
+
+.col-md-6.logocontainer {
+    margin: 40px 0px;
+}
+
+.addresscontainer,
+.socialcontainer {
+    padding-top: 15px;
+}
+
+/* Nav section  */
+
+.customnav {
+    background: #fff !IMPORTANT;
+    border-color: #00000014;
+    margin-bottom: 0px;
+}
+
+.customnav .navbar-nav>li {
+    padding: 0px 50px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background: transparent;
+    color: #CC9966;
+}
+
+/* Banner Section */
+
+.bannercontainer1 {
+    background: url(../images/bicolexpress.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.bannercontainer2 {
+    background: url(../images/laing.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.bannercontainer3 {
+    background: url(../images/tinola.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* product Section */
+
+.customthumbnail {
+    border: none;
+    text-align: center;
+}
+
+.row.productcontainer {
+    padding: 40px 0px;
+    clear: both;
+}
+
+.customthumbnail img:hover {
+    transform: scale(1.1);
+}
+
+.customthumbnail img {
+    transition: transform .2s;
+}
+
+.caption.customcaption {
+    margin-top: 20px;
+}
+
+p.recipe_time {
+    color: #ccc;
+}
+
+p.recipe_title {
+    color: #000;
+    font-family: -webkit-body;
+    font-size: 25px;
+    font-style: oblique;
+    padding: 15px 0px;
+}
+
+p.recipe_tag {
+    color: #ccc;
+}
+
+.row.productcontainer .col {
+    margin-bottom: 30px;
+}
+
+.dash {
+    color: #ccc;
+}
+
+ul.itemlist li {
+    line-height: 40px;
+}
+
+ul.itemlist {
+    padding-left: 0px;
+}
+
+.stepslist {
+    list-style: none;
+}
+
+ul.itemlist.stepslist li {
+    padding: 25px 0px;
+}
+
+span.step {
+    background: #c09c51cc;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+ul.itemlist.stepslist li {
+    line-height: 28px;
+}
+
+/* footer Section */
+
+footer {
+    background: #c09c51cc;
+    padding: 30px;
+}
+
+footer p {
+    color: #fff;
+    font: normal normal normal 14px/1.4em;
+    font-weight: 100;
+}
+
+.form-control {
+    border-radius: 0px;
+    box-shadow: none;
+    width: 100% !important;
+    padding: 10px;
+}
+
+.col-md-6.subscribe p {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.subscribe button.btn.btn-default {
+    padding: 11px;
+    background: rgb(158, 149, 149) !important;
+    box-shadow: none;
+    color: #fff !important;
+    border: rgb(158, 149, 149) !important;
+    border-radius: 0px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.col-md-6.copyrigts p {
+    text-align: center;
+}
+
+footer .socialcontainer {
+    text-align: center;
+}
+
+footer .socialcontainer ul li a i {
+    color: #ffffffc7;
+}
+
+p.copyinfo {
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    top: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .addresscontainer {
+        text-align: center;
+    }
+    .logocontainer a {
+        font-size: 28px;
+        letter-spacing: 8px;
+    }
+    .logocontainer {
+        margin: 10px 0px !important;
+    }
+    .socialcontainer {
+        text-align: center;
+        padding-top: 24px;
+    }
+    .socialcontainer ul li {
+        padding: 0px 5px;
+    }
+    .col-md-3.addresscontainer,
+    .col-md-6.logocontainer,
+    .col-md-3.socialcontainer,
+    .col-md-6.subscribe,
+    .col-md-6.cstepscontainer,
+    .col-md-6.citemscontainer {
+        width: 100%;
+    }
+    .col-md-6.subscribe p {
+        padding-left: 0px;
+    }
+}
+
+/* menu */
+
+.topnav {
+    overflow: hidden;
+    background-color: #FFF;
+    border: #00000014;
+    border-top: 1px solid #00000014;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #CC9966;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #CC9966;
+    color: #fff !important;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.column {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+
+.col-md-4 {
+    width: 33.32%;
+}
+
+.col-md-3 {
+    width: 24.9%;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.row {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.row div {
+    float: left;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+button.btn.btn-default {
+    padding: 11px;
+    background: rgb(158, 149, 149) !important;
+    box-shadow: none;
+    color: #fff !important;
+    border: rgb(158, 149, 149) !important;
+}
+
+.copyrigts .socialcontainer {
+    float: right;
+}
