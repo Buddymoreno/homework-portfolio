@@ -4,7 +4,6 @@
 <head>
     <title>Bicol Express</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -15,7 +14,7 @@
         <div class="row">
             <div class="col-md-3 addresscontainer">
                 <p>
-                    <span>125 Nowhere St.
+                    <span>No. 1 Nowhere St.
                         <br/>Los Angeles, CA 90001</span>
                 </p>
             </div>
@@ -51,41 +50,20 @@
     </div>
     <div class="container-fluid fullwidth-fluid">
         <!-- Navbar section start-->
-        <nav class="navbar navbar-default customnav">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                        aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand visible-xs" href="#">Bicol Express</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-                    <ul class="nav navbar-nav">
-                        <li class="active">
-                            <a href="./index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Recipes</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">About Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
         <!-- Navbar Section End-->
 
         <!-- Banner Start -->
         <div class="row">
-            <div class="bannercontainer"></div>
+            <div class="bannercontainer1"></div>
         </div>
         <!-- Banner End -->
 
@@ -93,25 +71,25 @@
         <div class="container">
             <div class="row productcontainer cookingcontainer">
                 <div class="col-container">
-                    <div class="col-md-6">
+                    <div class="col-md-6 citemscontainer">
                         <p class="recipe_title">Ingredients</p>
                         <ul class="itemlist">
-                                <li>2 packs of sweet chilli pepper (pang-sigang) or Korean Chili</li>
-                                <li>1 pack of raw "alamang" or shrimp fries</li>
-                                <li>1 pack dried anchovies</li>
-                                <li>1 lb pork belly, chopped into desired size or 1 in. x 1/2 in. size)</li>
-                                <li>1 or 2 pork bouillon</li>
-                                <li>2 tbsp cooking oil</li>
-                                <li>i medium size onion, chopped roughly</li>
-                                <li>4 cloves garlic, crushed</li>
-                                <li>5 - 10 pieces labuyo, chopped into small pcs, or 2 tbps chili flakes.  Can be adjusted to taste, less or more depending on preference.</li>
+                            <li>2 packs of sweet chilli pepper (pang-sigang) or Korean Chili</li>
+                            <li>1 pack of raw "alamang" or shrimp fries</li>
+                            <li>1 pack dried anchovies</li>
+                            <li>1 lb pork belly, chopped into desired size or 1 in. x 1/2 in. size)</li>
+                            <li>1 or 2 pork bouillon</li>
+                            <li>2 tbsp cooking oil</li>
+                            <li>i medium size onion, chopped roughly</li>
+                            <li>4 cloves garlic, crushed</li>
+                            <li>5 - 10 pieces labuyo, chopped into small pcs, or 2 tbps chili flakes.  Can be adjusted to taste, less or more depending on preference.</li>
                         </ul>
 
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 cstepscontainer">
                         <p class="recipe_title">Cooking Instructions</p>
                         <ul class="itemlist stepslist">
-                                <li><span class="step">Step 1</span><b>Cut sweet chili into strips, take out seeds, then set aside.</li>
+                            <li><span class="step">Step 1</span><b>Cut sweet chili into strips, take out seeds, then set aside.</li>
                                 <li><span class="step">Step 2</span><b>Transfer alamang into a strainer and put it under running water and rinse very well. Set aside.</b></li>
                                 <li><span class="step">Step 3</span><b>Fry the dried anchovies. Set aside.</b></li>
                                 <li><span class="step">Step 4</span><b>In a wok, big casserole, or deep frying pan, put oil then sauté garlic and onion. Add pork and pork boullion and cook meat until color is brown.</b></li>
@@ -119,7 +97,6 @@
                                 <li><span class="step">Step 6</span><b>Add the sweet chili, chopped labuyo (or chilli flakes), and mix with the ingredients very well.  Don't overcook.  As soon as everything is mixed, turn off the heat.</b></li>
                                 <li><span class="step">Step 7</span><b>Add the fried anchovies and mix well.</b></li>
                                 <li><span class="step">Step 8</span><b>Serve either as a side dish or main dish.  Enjoy!</b></li>
-
                         </ul>
                     </div>
                 </div>
@@ -171,8 +148,7 @@
         </footer>
         <!-- Footer Section End -->
     </div>
-    <script src="./assets/js/jquery.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
 </body>
 
 </html>
